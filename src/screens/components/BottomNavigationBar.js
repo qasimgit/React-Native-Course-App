@@ -30,8 +30,23 @@ const BottomNavigationBar = () => {
           }}
         />
       </View>
-      <View>
-        <Text>Buy Now</Text>
+      <View
+        style={{
+          height: 45,
+          backgroundColor: '#6E8AFA',
+          flex: 1,
+          borderRadius: 40,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
+        <Text
+          style={{
+            color: '#fff',
+            fontWeight: 'bold',
+            fontSize: 20,
+          }}>
+          Buy Now
+        </Text>
       </View>
     </View>
   );
